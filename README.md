@@ -38,10 +38,15 @@ Run CMD
 Run postgres with user 'postgres' and admin password initialised during setup
 
 CREATE DATABASE todolist_app;
+
 CREATE USER myuser WITH ENCRYPTED PASSWORD 'mypassword';
+
 GRANT ALL PRIVILEGES ON DATABASE todolist_app TO myuser;
+
 \c todolist_app postgres
+
 You are now connected to database "todolist_app" as user "postgres".
+
 GRANT ALL ON SCHEMA public TO myuser
 
 
