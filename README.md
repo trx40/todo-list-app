@@ -31,6 +31,13 @@
 ```bash
 $ npm install
 ```
+Install PostgreSQL
+
+Create a user: myuser
+password: mypassword
+
+
+
 
 ## Running the app
 
